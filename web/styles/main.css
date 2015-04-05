@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(styles/quizz.png);  
+}
+
+
+
+
+#Principal {
+   
+  background-color: #F0F8FF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: auto ;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  border: solid maroon 1px ;
+}
+
+
+#Question {
+  
+  font-size: 22px;
+  background-color: Lavender;
+    border: 1px solid black;
+    border-radius: 10px;    
+    padding: 10px;    
+    margin: 50px;  
+}
+
+#reponses{
+  text-align: center;
+}
+
+#reponses button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 26px 10px 20px;
+  text-decoration: none;
+
+}
+
+
+#reponses button:active {
+  background: #00CC33 ;
+  background-image: -webkit-linear-gradient(top, #00CC33, #00CC33);
+  background-image: -moz-linear-gradient(top, #00CC33, #00CC33);
+  background-image: -ms-linear-gradient(top, #00CC33, #00CC33);
+  background-image: -o-linear-gradient(top, #00CC33, #00CC33);
+  background-image: linear-gradient(to bottom, #00CC33, #00CC33);
+  text-decoration: none;
+}
+
+#next{
+  float: right;
+  margin-top: 50px;
+}
+
